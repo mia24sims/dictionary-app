@@ -61,12 +61,13 @@
   }
 }
  
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 395px) {
    .Dictionary input {
-  width: 38%;
+  width: 100%;
   }
 
   .Dictionary .button {
+    margin-top: 5px;
   width: 50%;
   }
 }
