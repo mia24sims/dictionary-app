@@ -59,6 +59,14 @@
   .Dictionary .button {
   width: 40%;
   }
+}
+ 
+@media screen and (max-width: 400px) {
+   .Dictionary input {
+  width: 38%;
+  }
 
-
+  .Dictionary .button {
+  width: 50%;
+  }
 }
