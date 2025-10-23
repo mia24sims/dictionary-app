@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "./shecodes-logo.avif";
 import Dictionary from "./Dictionary";
 
 function App() {
@@ -7,13 +6,15 @@ function App() {
     <div className="App">
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+        Dictionary App
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="rainbow"/>
         </main>
         <footer className="App-footer">
-          <small> Coded by Tamia Sims</small>
+          <small> Coded by Tamia Sims, open-sourced on <a href="">Github</a>,
+          and hosted on <a href="">Netlify</a>
+          </small>
         </footer>
       </div>
     </div>
