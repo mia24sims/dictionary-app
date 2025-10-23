@@ -36,13 +36,19 @@ let [loaded, setLoaded] = useState(false);
   if (loaded){return (
     <div className="Dictionary">
       <section className="form-background">
-             <h1> Enter a word..</h1>
+        <h1> Enter a word..</h1>
 
-        <form onSubmit={handleSubmit}>
+        <form>
           <input
             type="search"
             autoFocus={true}
             onChange={handleKeywordChange}
+          />
+          <input
+            type="submit"
+            value="Search"
+            className="button"
+            onClick={handleSubmit}
           />
         </form>
         <div className="hint">suggested words: rainbow, butterfly, cloud</div>

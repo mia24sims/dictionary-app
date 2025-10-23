@@ -14,4 +14,6 @@
 
 .Meaning section h3{
   font-size: 35px;
+    text-shadow: -2px 0 #c73c61, 0 2px #c73c61, 1px 0 #c73c61, 0 -1px #c73c61;
+
 }
