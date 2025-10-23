@@ -47,7 +47,9 @@
 }
 
 @media screen and (max-width: 450px) {
-
+.Dictionary h1{
+  font-size: 30px;
+}
 
   .Dictionary input {
   width: 50%;

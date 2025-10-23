@@ -17,3 +17,11 @@
     text-shadow: -2px 0 #c73c61, 0 2px #c73c61, 1px 0 #c73c61, 0 -1px #c73c61;
 
 }
+
+@media screen and (max-width: 450px) {
+  .Meaning section{
+    text-align: center;
+  }
+
+ 
+}
