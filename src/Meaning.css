@@ -23,5 +23,7 @@
     text-align: center;
   }
 
- 
+ .Meaning section h3{
+  font-size: 30px;
+ }
 }

@@ -28,5 +28,14 @@ font-size: 29px;
 @media screen and (max-width: 450px) {
   .Results .word{
     text-align: center;
+  
+  }
+
+  .Results h2 {
+    font-size: 32px;
+  }
+
+  .Results h3{
+    font-size: 21px;
   }
 }
